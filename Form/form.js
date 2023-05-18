@@ -18,6 +18,8 @@ let hobbies = []
 let checkboxes = document.getElementsByName('hobbies')
 console.log(checkboxes)
 
+
+// je shob checkbox checked ache tader ber korbo 
 for(let i = 0;i<checkboxes.length;i++){
     if(checkboxes[i].checked){
         hobbies.push(checkboxes[i].value)
